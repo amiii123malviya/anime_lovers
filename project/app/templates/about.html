@@ -1,0 +1,79 @@
+{% extends 'navbar.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- <link rel="stylesheet" href="{% static 'css/about.css' %}"> -->
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+<body class="body">
+    {% block content %}
+<div class="row">
+    <div class="imgWrapper">
+        <img src="{% static 'images/luffy.jpeg' %}" >
+    </div>
+    <div class="contentWrapper">
+            <span class="textWrapper">
+                <h2>One piece</h2>
+                <p>The story follows the adventures of Monkey D. Luffy and his crew, the Straw Hat Pirates, where he explores the Grand Line in search of the mythical treasure known as the "One Piece" in order to become the next King of the Pirates.
+                    One of the central themes of the series is freedom and independence. This is exemplified by the character of Monkey D. Luffy and his crew, the Straw Hat Pirates, who have their individual grand ambitions and are determined to fulfil them against all odds.
+                    
+                </p>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="imgWrapper">
+        <img src="{% static 'images/three.jpeg' %}" >
+    </div>
+    <div class="contentWrapper">
+            <span class="textWrapper">
+                <h2>Demon Slayer</h2>
+                <p>"Blade of Demon Destruction" is a Japanese anime television series produced by Ufotable, based on the manga series of the same name by Koyoharu Gotouge. It follows teenage Tanjiro Kamado, who strives to become a Demon Slayer after his family was slaughtered and his younger sister, Nezuko, is turned into a demon..
+                    Demon Slayer: Kimetsu no Yaiba is a Japanese manga series written and illustrated by Koyoharu Gotouge. It was serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from February 2016 to May 2020, with its chapters collected in 23 tankōbon volumes
+                    
+                </p>
+            </span>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="imgWrapper">
+        <img src="{% static 'images/four.jpeg' %}" >
+    </div>
+    <div class="contentWrapper">
+            <span class="textWrapper">
+                <h2>Your Name</h2>
+                <p>Your Name is a Japanese light novel written by Makoto Shinkai. It is a novelization of the animated film of the same name, which was directed by Shinkai. It was published in Japan by Kadokawa on June 18, 2016, a month prior to the film premiere. By September 2016, the light novel had sold around 1,029,000 copies.
+                    Original title: Kimi no na wa. Two teenagers share a profound, magical connection upon discovering they are swapping bodies. Things manage to become even more complicated when the boy and girl decide to meet in person. Two teenagers share a profound, magical connection upon discovering they are swapping bodies.
+                    
+                </p>
+            </span>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="imgWrapper">
+        <img src="{% static 'images/two.jpeg' %}" >
+    </div>
+    <div class="contentWrapper">
+            <span class="textWrapper">
+                <h2>Naruto</h2>
+                <p>Naruto is a Japanese manga (comic or graphic novel) adventure series that was originally published in print from 1999 to 2014. The story follows a young ninja, Naruto Uzumaki, on his journey to become the Hokage, or head ninja, of his village.
+                    Fans generally log on for the depth of story, brilliant action sequences, and a masterfully crafted world-building. Naruto is a testament that for all its flaws, a series can still light a fire in the hearts of many, including casual watchers and die-hard fans alike. And this, is why people like Naruto so much
+                    
+                </p>
+            </span>
+        </div>
+    </div>
+</div>
+
+    {% endblock %}
+</body>
+</html>
