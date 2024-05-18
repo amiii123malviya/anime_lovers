@@ -1,0 +1,111 @@
+{% extends 'navbar.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+<body>
+    {% block content %}
+    <!-- <h1>explore</h1> -->
+    
+    <div class="container10">
+        <!-- <div class="hero">
+            <div class="video-container">
+          <video autoplay loop muted class="back-video">
+             <source src="{% static 'video/about.mp4' %}" type="video/mp4">
+            </video>
+        </div> -->
+        <div class="card__container">
+           <article class="card__article">
+              <img src="{% static 'images/one.jpeg' %}" alt="image" class="card__img">
+
+              <div class="card__data">
+                 <span class="card__description">Monkey D.luffy</span>
+                 <h2 class="card__title">One Piece</h2>
+                 <a href="" class="card__button">Read More</a>
+              </div>
+           </article>
+
+           <article class="card__article">
+              <img src="{% static 'images/two.jpeg' %}" alt="image" class="card__img">
+
+              <div class="card__data">
+                 <span class="card__description">Naruto Uzomaki</span>
+                 <h2 class="card__title">Naruto</h2>
+                 <a href="" class="card__button">Read More</a>
+              </div>
+           </article>
+
+           <article class="card__article">
+              <img src="{% static 'images/giyu.jpeg' %}" alt="image" class="card__img">
+
+              <div class="card__data">
+                 <span class="card__description">Giyu Tomioka </span>
+                 <h2 class="card__title">Demon Slayer</h2>
+                 <a href="" class="card__button">Read More</a>
+              </div>
+           </article>
+           <article class="card__article">
+            <img src="{% static 'images/four.jpeg' %}" alt="image" class="card__img">
+
+            <div class="card__data">
+               <span class="card__description">Taki Tachibana </span>
+               <h2 class="card__title">Your name</h2>
+               <a href="" class="card__button">Read More</a>
+            </div>
+         </article>
+         <article class="card__article">
+            <img src="{% static 'images/zoro.jpeg' %}" alt="image" class="card__img ">
+
+            <div class="card__data">
+               <span class="card__description">Roronoa Zoro </span>
+               <h2 class="card__title">One Piece</h2>
+               <a href="" class="card__button">Read More</a>
+            </div>
+         </article>
+         <article class="card__article">
+            <img src="{% static 'images/neji.jpeg' %}" alt="image" class="card__img">
+
+            <div class="card__data">
+               <span class="card__description">Neji Hyūga </span>
+               <h2 class="card__title">Naruto</h2>
+               <a href="" class="card__button">Read More</a>
+            </div>
+         </article>
+         <article class="card__article">
+            <img src="{% static 'images/jiraya.jpeg' %}" alt="image" class="card__img">
+
+            <div class="card__data">
+               <span class="card__description">Ogata Shuma Hiroyuki</span>
+               <h2 class="card__title">Naruto</h2>
+               <a href="" class="card__button">Read More</a>
+            </div>
+         </article>
+         <article class="card__article">
+            <img src="{% static 'images/nobara.jpeg' %}" alt="image" class="card__img">
+
+            <div class="card__data">
+               <span class="card__description">nobara kugisaki </span>
+               <h2 class="card__title">Jujutsu Kaisen</h2>
+               <a href="" class="card__button">Read More</a>
+            </div>
+         </article>
+         <article class="card__article">
+            <img src="{% static 'images/login.jpeg' %}" alt="image" class="card__img">
+
+            <div class="card__data">
+               <span class="card__description">Itachi Uchiha </span>
+               <h2 class="card__title">Naruto</h2>
+               <a href="" class="card__button">Read More</a>
+            </div>
+         </article>
+        </div>
+     </div>
+    {% endblock %}
+</body>
+</html>

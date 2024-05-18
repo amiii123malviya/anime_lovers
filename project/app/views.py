@@ -31,8 +31,11 @@ def registerdata(request):
                                Email=email,
                                Password=password)
             msg="Register successfully"
-            return render(request,'login.html',{'key':msg})
+            return render(request,'home.html',{'key':msg})
         
         else:
             msg="password and confirm password not matched"
             return render(request,'register.html',{'key':msg})
+        
+def explore(request):
+    return render(request,'explore.html')
